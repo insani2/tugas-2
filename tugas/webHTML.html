@@ -1,0 +1,66 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Video Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            margin-top: 60px;
+            background: #fff;
+            padding: 32px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 95%;
+            max-width: 600px;
+        }
+        video {
+            width: 100%;
+            max-width: 540px;
+            height: auto;
+            border-radius: 8px;
+            background: #ddd;
+            margin-top: 24px;
+        }
+        .desc {
+            margin-top: 18px;
+            color: #444;
+            font-size: 1.1em;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 16px 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>video perkenalan</h1>
+        <div class="desc">
+            <!-- Edit this text for your video description -->
+            <p>
+                nama:erland sulthoni wiratama
+                
+                kelas: 10.6
+            </p>
+        <!-- Replace 'your-video.mp4' with your video file or URL -->
+        <video controls>
+            <source src="c:\Users\elans\Documents\WhatsApp Video 2025-07-15 at 21.28.14_cf0d1fe8.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
